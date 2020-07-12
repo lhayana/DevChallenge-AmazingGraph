@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-right: 4%;
   padding: 0;
   overflow: hidden;
+  padding: 1%;
+  font-size: 18px;
 }
 
 li{
@@ -21,25 +24,62 @@ li a {
   display: block;
   text-align: center;
   padding: 8px; 
+  padding-right: 1%;
   text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-weight: 500;
 }
 
 h1{
-    color: chocolate;
+    font-size: 60px;
+}
+
+p{
+    padding-top: 1%;
+    font-size: 24px;
+}
+
+#first{
+    margin-top: 2%;
+}
+
+button{
+  margin-top: 3%;
+  padding: 16px 80px;;
+  border-radius: 12px;
+  background-color: rgb(231, 125, 48);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 700;
+  transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(131, 65, 18);
+    color: darkgray;
 }
 
 #logo{
+  padding-left: 2%;
   float: left;
-  color: chocolate;
+  color: rgb(231, 125, 48);
 }
 
 #foto{
-    padding: 5%;
-    max-width: 50%;
+    max-width: 60%;
+    position: absolute;
     float: right;
+    margin-left: 35%;
 }
 
 #conteudo{
     padding: 5%;
+    padding-left: 10%;
+    position: relative;
+    color: rgb(88, 84, 80);
 }
 
